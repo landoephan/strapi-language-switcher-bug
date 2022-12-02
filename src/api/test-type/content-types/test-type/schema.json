@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_types",
+  "info": {
+    "singularName": "test-type",
+    "pluralName": "test-types",
+    "displayName": "TestType"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "test": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
